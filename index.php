@@ -33,6 +33,7 @@
 
                 echo " 
                     <a href='update_task.php?id={$row['id']}'>✔️</a>
+                    <a href='edit_task.php?id={$row['id']}'>✏️</a>
                     <a href='delete_task.php?id={$row['id']}'>🗑️</a>
                 ";
 
